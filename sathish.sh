@@ -1,1 +1,1 @@
-mksir sar
+mkdir sar
