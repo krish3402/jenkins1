@@ -4,7 +4,7 @@
   <groupId>com.rns.app</groupId>
   <artifactId>webapp</artifactId>
   <packaging>war</packaging>
-  <version>3.8</version>
+  <version>4.1</version>
   <name>webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -23,12 +23,12 @@
   <repository>
      <id>deployment</id>
      <name>Internal Releases</name>
-     <url>http://3.86.91.5:8082/nexus-latest/content/repositories/releases/</url>
+     <url>http://34.238.249.107:8089/nexus-latest/content/repositories/releases/</url>
   </repository>
   <snapshotRepository>
      <id>deployment</id>
      <name>snapshot </name>
-     <url>http://3.86.91.5:8082/nexus-latest/content/repositories/snapshots/</url>
+     <url>http://34.238.249.107:8089/nexus-latest/content/repositories/snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 
