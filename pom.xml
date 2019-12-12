@@ -21,15 +21,10 @@
   
    <distributionManagement>
   <repository>
-     <id>releases</id>
+     <id>tashir-deployment</id>
      <name>Internal Releases</name>
-     <url>http://3.82.215.163:8080/nexus-latest/content/repositories/releases/</url>
-  </repository>
-  <snapshotRepository>
-     <id>snapshots</id>
-     <name>snapshot</name>
-     <url>http://3.82.215.163:8080/nexus-latest/content/repositories/snapshots/</url>
-  </snapshotRepository>
+     <url>http://172.16.0.56:8081/repository/maven-releases/</url>
+  </repository>  
 </distributionManagement>
 
 </project>
